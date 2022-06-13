@@ -1,0 +1,27 @@
+/* patients-title */
+.patients-title {
+  text-align: center;
+  font-size: 72px;
+  font-family: "Hurricane", cursive;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* add-new-Btn-wrapper */
+.add-new-Btn-wrapper {
+  margin-top: 20px;
+  width: 90%;
+  margin: auto;
+}
+.add-new-Btn-wrapper button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+}
+.add-new-Btn-wrapper button:hover {
+  background: #212b36;
+  color: #fff;
+  cursor: pointer;
+}

@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Rubik:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+/* home-wrapper */
+.home-wrapper {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/public/images/homebg.jpg);
+  height: 100vh;
+}
+/* home-title */
+.home-title {
+  text-align: center;
+  font-size: 72px;
+  font-family: "Hurricane", cursive;
+  font-weight: 400;
+}
+/* home-img */
+.home-banner {
+  display: flex;
+  justify-content: space-between;
+}
+/* left-links */
+.home-banner .left-links button {
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 200px;
+  color: #0e416d;
+  font-size: 34px;
+  font-family: "Hurricane", cursive;
+  font-weight: 400;
+  border: 1px solid #0e416d;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+}
+.home-banner .left-links button:hover {
+  padding: 10px;
+  border-radius: 20px;
+  width: 200px;
+  color: #fff;
+  font-size: 34px;
+  border: 1px solid #fff;
+  background: #0e416d;
+  cursor: pointer;
+}
+/* right-links */
+.home-banner .right-links button {
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 200px;
+  color: #0e416d;
+  font-size: 34px;
+  font-family: "Hurricane", cursive;
+  font-weight: 400;
+  border: 1px solid #0e416d;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+}
+.home-banner .right-links button:hover {
+  padding: 10px;
+  border-radius: 20px;
+  width: 200px;
+  color: #fff;
+  font-size: 34px;
+  border: 1px solid #fff;
+  background: #0e416d;
+  cursor: pointer;
+}
+/* home-btn */
+.home-btn {
+  border: 1px solid #000;
+}
+/* logout-wrapper */
+.right-links .logout-btn {
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 200px;
+  color: #f43f2b !important;
+  font-size: 34px;
+  font-family: "Hurricane", cursive;
+  font-weight: 400;
+  border: 1px solid #fff;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.6s;  
+}
+.right-links .logout-btn:hover {
+  padding: 10px;
+  border-radius: 20px;
+  width: 200px;
+  color: #fff;
+  font-size: 34px;
+  border: 1px solid #fff;
+  background: #0e416d;
+  cursor: pointer;
+}

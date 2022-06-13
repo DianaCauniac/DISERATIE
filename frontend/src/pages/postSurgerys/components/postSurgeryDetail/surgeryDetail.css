@@ -1,0 +1,13 @@
+/* detail-title */
+.detail-title{
+    font-weight: 300;
+}
+/* detail-wrapper */
+.detail-wrapper{
+    margin: 20px;
+}
+/* detail-desc */
+.detail-desc{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

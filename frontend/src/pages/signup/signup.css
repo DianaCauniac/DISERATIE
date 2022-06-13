@@ -1,0 +1,12 @@
+/* signup-wrapper */
+.signup-wrapper {
+  background-image: url(/public/images/signupbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}

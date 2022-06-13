@@ -1,0 +1,23 @@
+/* patient-detail-card */
+.patient-detail-card{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-right: 20px;
+    position: relative;
+}
+.patient-detail-card h4{
+    padding: 10px 20px;
+}
+.patient-detail-card img{
+    width: 100%;
+}
+.patient-detail-card h5{
+    text-align: center;    
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
